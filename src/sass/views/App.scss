@@ -1,0 +1,47 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.content {
+		background-color: #00bcd4;
+		width: 66%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		h3 {
+			text-align: center;
+		}
+
+		.todo-list {
+			width: 50%;
+
+			.item {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+
+				p.done {
+					text-decoration: line-through;
+				}
+
+				input {
+					margin-top: 8px;
+				}
+			}
+		}
+
+		.controls {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+			input {
+				margin-right: 8px;
+			}
+		}
+	}
+}

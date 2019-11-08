@@ -1,0 +1,14 @@
+.view {
+	.modal {
+		width: 560px;
+		position: fixed;
+		z-index: 10;
+		top: 80px;
+		left: 50%;
+		margin-left: -280px;
+		padding: 16px;
+		background: white;
+		border: solid black 1px;
+		border-radius: 5px;
+	}
+}

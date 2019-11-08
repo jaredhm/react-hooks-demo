@@ -5,11 +5,12 @@
 /.pnp
 .pnp.js
 
-# testing
-/coverage
+# transpiled css
+/src/css
 
-# production
-/build
+# swap files
+**/*.swp
+
 
 # misc
 .DS_Store
